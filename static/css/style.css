@@ -1,0 +1,104 @@
+html{
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /* https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLCWR7xh2QsSsFspipve_DIgyTYXGyhh9Z20LXi2wI_4ElpYyXLSRRTKaVUFKKwcWTiL4&usqp=CAU */
+  background-image: url("images.jpg")
+
+}
+body{
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* Website Title */
+.header{
+  padding: 0;
+  color: whitesmoke;
+}
+.header-heading{
+  font-family: 'Pacifico', cursive;
+  margin: 0;
+  margin-bottom: 3px;
+  font-size: 45px;
+}
+.header-description{
+  margin-top: 0;
+  font-size: 20px;
+  font-style:bold;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Form area */
+.main{
+  margin: 2% 10%;
+  padding: 50px;
+  /* Tinted Glass UI */
+  border: 0px none rgba(100, 100, 100, 0);
+  border-radius: 12px;
+  background-color: rgba(0, 0, 0, 0.2);
+  box-shadow:
+    inset 0px -3px 10px 0px rgba(255, 255, 255, 0.15),
+    inset 0px -5px 18px 0px rgba(255, 255, 255, 0.15),
+    inset 0px 6px 12px 0px rgba(255, 255, 255, 0.15),
+    inset 0px 3px 3px 0px rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(100px);
+  -webkit-backdrop-filter: blur(100px);
+}
+input,select{
+  width: 500px;
+  height: 35px;
+  margin: 15px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border: 2px groove #1470cce9;
+}       
+.form-input{
+  text-align: center;
+  font-family: monospace;
+}
+.footer-button{
+    width: 100px;
+    text-align: center;
+    padding: 0;
+    margin-bottom: 0;
+    border-radius: 20px;
+    border: 0;
+    font-size: larger;
+}
+.footer-button:hover{
+  border: 5px double #1470cce9;
+  color: #1470cce9;
+  font-family: 'Pacifico', cursive;
+}
+
+/* Footer area */
+.footer-description{
+  margin-top: 0;
+  color: white;
+  font-family: 'Pacifico', cursive;
+}
+#logo{
+  width: 70px;
+  height: 40px;
+  margin-bottom: 0;
+}
+
+/* Result */
+.results{
+  padding: 30px ;
+}
+
+.danger{
+  color: #ff0000;
+}
+
+.safe{
+  color: green;
+}
