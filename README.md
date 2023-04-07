@@ -9,7 +9,7 @@
  - [Overview](#overview)
  - [Motivation](#motivation)
  - [Installation](#installation)
- - [Deployement on Heroku](#deployement-on-heroku)
+ - [Deployement on Cpanel](#deployement-on-cpanel)
  - [Directory Tree](#directory-tree)
  - [Bug / Feature Request](#bug--feature-request)
  - [Future scope of project](#future-scope)
@@ -33,8 +33,8 @@ The Code is written in Python 3.10.10. If you don't have Python installed you ca
 ```bash
 pip install -r requirements.txt
 ```
-## Deployement on Heroku
-
+## Deployement on Cpanel
+Click [here](https://docs.cpanel.net/knowledge-base/web-services/guide-to-git-how-to-set-up-deployment/) to see how to deploy your machine learning model on Cpanel.
 
 ## Directory Tree
 
