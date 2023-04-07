@@ -16,7 +16,7 @@
  - [Credits](#credits)
 
 ## Demo
-Link:
+Link: https://sajid.engineer/frauddetect/
 
 ![GIF](resource/Fraud-Detection.gif)
 
