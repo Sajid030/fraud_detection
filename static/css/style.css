@@ -37,6 +37,7 @@ body{
 
 /* Form area */
 .main{
+    /*width:100%;*/
   margin: 2% 10%;
   padding: 50px;
   /* Tinted Glass UI */
@@ -51,18 +52,33 @@ body{
   backdrop-filter: blur(100px);
   -webkit-backdrop-filter: blur(100px);
 }
+
 input,select{
   width: 500px;
   height: 35px;
-  margin: 15px;
+  margin: 25px;
+  /*resize: vertical;*/
   box-sizing: border-box;
   border-radius: 10px;
   border: 2px groove #1470cce9;
-}       
+}
+/* Responsive layout - when the screen is less than 800px wide */
+@media screen and (max-width: 800px) {
+    form{
+    width:100%;
+    margin:0;
+}
+  input,select{
+    width: 100%;
+    margin:15px 0;
+    font-size: 10px;
+  }
+}
 .form-input{
   text-align: center;
   font-family: monospace;
 }
+
 .footer-button{
     width: 100px;
     text-align: center;
@@ -76,6 +92,7 @@ input,select{
   border: 5px double #1470cce9;
   color: #1470cce9;
   font-family: 'Pacifico', cursive;
+  cursor:pointer;
 }
 
 /* Footer area */
@@ -93,6 +110,8 @@ input,select{
 /* Result */
 .results{
   padding: 30px ;
+  color:white;
+  font-size: x-large;
 }
 
 .danger{
