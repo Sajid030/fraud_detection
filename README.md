@@ -18,6 +18,10 @@
 ## Demo
 Link: https://sajid.engineer/frauddetect/
 
+- Please do ⭐ the repository, if it helped you in anyway.
+
+- A glimpse of the web app:
+
 ![GIF](resource/Fraud-Detection.gif)
 
 ## Overview
