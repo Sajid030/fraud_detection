@@ -18,6 +18,7 @@
 ## Demo
 Link: https://sajid.engineer/frauddetect/
 
+  Note: If the website link provided above not working that means the deployment has been stopped. Sorry for the inconvenience.
 - Please do ⭐ the repository, if it helped you in anyway.
 
 - A glimpse of the web app:
